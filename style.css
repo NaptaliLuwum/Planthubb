@@ -1,0 +1,137 @@
+body.fb-bg{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+.fb-container{
+    width: 360px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0,0,0,0.1);
+    padding: 32px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.fb-logo{
+    font-size: 40px;
+    color: #1877f2;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+}
+.fb-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.fb-form input[type="text"],
+.fb-form input[type="password"],
+.fb-form input[type="date"]{
+    padding: 12px;
+    border: 1px solid #dddfe2; 
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #f5f6f7;
+    outline: none;
+    transition: border 0.2s;
+}
+.fb-form input:focus{
+    border: 1.5px solid #1877f2;
+}
+.fb-btn{
+    background: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    transition:background0.2s;
+}
+.fb-btn:hover{
+    background: #166fe5;
+}
+.fb-btn-green{
+     background-color:#42b72a;
+    margin-top: 0;
+}
+.fb-btn-green:hover{
+    background-color: #36a420;
+}
+.fb-link{
+    color: #1877f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 8px 0;
+    display: block;
+}
+.fb-link:hover{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+    border-top : 1px solid #dddfe2; 
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 16px 0;
+}
+.fb-signup-form{
+    gap: 10px;
+}
+.fb-signup-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #1c1e21;
+    text-align: left;
+}
+.fb-signup-subtitle{
+    font-size: 16px;
+    color: #606770;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.fb-signup-row{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fb-gender-option{
+    display: flex;
+    gap: 12px;
+    margin-top: 2px;
+}
+.fb-gender-option label{
+    font-size: 15px;
+    color: #1c1e21;
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.fb-gender-option input[type=\"radio\"]{
+    margin-right: 2px;
+}

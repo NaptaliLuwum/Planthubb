@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fb-bg">
+    <div class="fb-container"> 
+     <div class="fb-logo">facebook</div>
+      <form class="fb-form fb-signup">
+         <div class="fb-signup title">Create a new account</div>
+         <div class="fb-signup-subtitle">It's quick and easy</div>
+         <input type="text" placeholder="First Name" required>
+         <input type="text" placeholder="Surname" required>
+         <input type="text" placeholder="Mobile number or email address" required>
+        <input type="password" placeholder="New password" required>
+        <div class="fb-signup-row">
+            <label>Date of birth</label>
+            <input type="date" required>
+        </div>
+        <div class="fb-signup-row"> 
+            <label>Gender</label>
+            <div class="fb-gender-option">
+                <label><input type="radio" name="Gender" required> Female</label>
+                <label><input type="radio" name="Gender" required>Male</label>
+                <label><input type="radio" name="Gender"required>Custom</label>
+            </div>
+            <button type="submit" class="fb-btn fb-btn-green">Sign up</button>
+            <a href="login.html" class="fb-link">Already have an account</a>
+        </div>
+     </form>
+ </div>
+</body>
+</html>
